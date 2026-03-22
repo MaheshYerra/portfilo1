@@ -1,0 +1,81 @@
+.contact-grid {
+  gap: 4rem;
+  align-items: center;
+}
+
+.contact-info h3 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: var(--text-primary);
+}
+
+.contact-desc {
+  color: var(--text-secondary);
+  margin-bottom: 3rem;
+  font-size: 1.1rem;
+}
+
+.contact-methods {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.contact-method {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.method-icon {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--accent-color);
+  transition: var(--transition);
+}
+
+.contact-method:hover .method-icon {
+  background: var(--accent-color);
+  color: white;
+  transform: scale(1.1);
+}
+
+.icon-base {
+  color: inherit;
+}
+
+.contact-method h4 {
+  font-family: 'Inter', sans-serif;
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 0.25rem;
+}
+
+.contact-method p {
+  color: var(--text-primary);
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+.contact-form-container {
+  padding: 3rem;
+  border-radius: 1.5rem;
+}
+
+.submit-btn {
+  width: 100%;
+  padding: 1rem;
+  font-size: 1.1rem;
+}
+
+.btn-success {
+  background: #10b981;
+  box-shadow: 0 0 20px rgba(16, 185, 129, 0.4);
+  animation: none;
+}

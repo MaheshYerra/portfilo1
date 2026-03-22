@@ -1,0 +1,105 @@
+.about-content {
+  align-items: center;
+}
+
+.about-text {
+  font-size: 1.1rem;
+  color: var(--text-secondary);
+}
+
+.about-text p {
+  margin-bottom: 1.5rem;
+}
+
+.exp-badges {
+  display: flex;
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.exp-badge {
+  padding: 1.5rem;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  text-align: center;
+  transition: var(--transition);
+}
+
+.exp-badge:hover {
+  transform: translateY(-5px);
+  border-color: var(--accent-color);
+}
+
+.exp-number {
+  font-size: 2.5rem;
+  font-weight: 800;
+  font-family: 'Outfit', sans-serif;
+  color: var(--accent-color);
+  line-height: 1;
+  margin-bottom: 0.5rem;
+}
+
+.exp-text {
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: var(--text-primary);
+}
+
+.skills-title {
+  font-family: 'Outfit', sans-serif;
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.skills-grid {
+  gap: 1.5rem;
+}
+
+.skill-card {
+  padding: 1.5rem;
+  border-radius: 1rem;
+  transition: var(--transition);
+}
+
+.skill-card:hover {
+  transform: translateY(-5px);
+  border-color: rgba(255, 255, 255, 0.2);
+  background: rgba(30, 41, 59, 0.9);
+}
+
+.skill-icon {
+  color: var(--accent-color);
+  margin-bottom: 1rem;
+}
+
+.skill-card h4 {
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+  color: var(--text-primary);
+}
+
+.skill-card ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.skill-card ul li {
+  color: var(--text-secondary);
+  font-size: 0.9rem;
+  display: flex;
+  align-items: center;
+}
+
+.skill-card ul li::before {
+  content: "▹";
+  color: var(--accent-color);
+  margin-right: 0.5rem;
+  font-size: 1.2rem;
+}
