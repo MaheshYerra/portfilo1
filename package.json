@@ -1,4 +1,10 @@
 {
+  "name": "portfolio-root",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node server/server.js",
+    "build": "npm install && cd server && npm install"
+  },
   "dependencies": {
     "lucide-react": "^0.577.0",
     "react-router-dom": "^7.13.1"
