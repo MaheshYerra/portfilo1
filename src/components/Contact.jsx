@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import axios from 'axios';
 import { motion } from 'framer-motion';
 import { FiMail, FiMapPin, FiSend, FiCheckCircle } from 'react-icons/fi';
 
@@ -35,20 +34,16 @@ const Contact = () => {
         setFormData({ ...formData, [e.target.name]: e.target.value });
     };
 
-    const handleSubmit = async (e) => {
+    const handleSubmit = (e) => {
         e.preventDefault();
         setStatus('loading');
         
-        try {
-            await axios.post('http://localhost:5000/api/contact', formData);
+        // Simulation of message sent (no backend needed)
+        setTimeout(() => {
             setStatus('success');
             setFormData({ name: '', email: '', message: '' });
             setTimeout(() => setStatus('idle'), 5000);
-        } catch (error) {
-            setStatus('error');
-            setErrorMsg(error.response?.data?.message || 'Something went wrong. Please try again.');
-            setTimeout(() => setStatus('idle'), 5000);
-        }
+        }, 1000);
     };
 
     return (
