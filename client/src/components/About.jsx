@@ -40,8 +40,8 @@ const About = () => {
                     >
                         <div className="aspect-[4/5] rounded-2xl overflow-hidden glass border-4 border-white/40 dark:border-white/10 shadow-xl relative z-10">
                             {/* In a real scenario, place a professional photo here */}
-                            <div className="w-full h-full bg-slate-200 dark:bg-slate-800 flex items-center justify-center">
-                                <img src="/profile.jpg" alt="Yerra Mahesh" className="w-full h-full object-cover" />
+                            <div className="w-full h-full bg-white dark:bg-[#0f172a] flex items-center justify-center">
+                                <img src="/profile.jpg" alt="Yerra Mahesh" className="w-full h-full object-contain" />
                             </div>
                         </div>
                         {/* Decorative background block */}

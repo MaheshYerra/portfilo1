@@ -83,8 +83,8 @@ const Contact = () => {
                                 </div>
                                 <div className="ml-6">
                                     <h4 className="text-lg font-semibold text-slate-900 dark:text-white">Email Me</h4>
-                                    <a href="mailto:hello@example.com" className="text-slate-600 dark:text-slate-400 hover:text-blue-600 dark:hover:text-blue-400 transition-colors">
-                                        ym100ms@gmail.com
+                                    <a href="mailto:yerramahesh1234@gmail.com" className="text-slate-600 dark:text-slate-400 hover:text-blue-600 dark:hover:text-blue-400 transition-colors">
+                                        yerramahesh1234@gmail.com
                                     </a>
                                 </div>
                             </div>
@@ -123,7 +123,7 @@ const Contact = () => {
                                     onChange={handleChange}
                                     required
                                     className="w-full px-4 py-3 bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-700 rounded-xl focus:ring-2 focus:ring-blue-500 focus:border-transparent outline-none transition-all dark:text-white"
-                                    placeholder="John Doe"
+                                    placeholder="Your Name"
                                 />
                             </div>
                             
@@ -137,7 +137,7 @@ const Contact = () => {
                                     onChange={handleChange}
                                     required
                                     className="w-full px-4 py-3 bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-700 rounded-xl focus:ring-2 focus:ring-blue-500 focus:border-transparent outline-none transition-all dark:text-white"
-                                    placeholder="john@example.com"
+                                    placeholder="your@email.com"
                                 />
                             </div>
 

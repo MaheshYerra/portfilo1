@@ -23,7 +23,7 @@ const Footer = () => {
         
         <div className="footer-bottom">
           <p className="copyright">
-            &copy; {currentYear} John Doe. All rights reserved.
+            &copy; {currentYear} Yerra Mahesh. All rights reserved.
           </p>
           <p className="made-with">
             Made with <Heart size={16} className="heart-icon" /> using MERN Stack
