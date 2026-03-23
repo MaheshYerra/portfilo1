@@ -60,6 +60,36 @@ const Timeline = () => {
                                     Pursuing core computer science subjects including Data Structures, Algorithms, Operating Systems, and Database Management Systems.
                                 </p>
                             </div>
+
+                            <div className="relative">
+                                <div className="absolute -left-[41px] bg-white dark:bg-slate-950 p-1 rounded-full">
+                                    <div className="w-4 h-4 bg-blue-600 rounded-full ring-4 ring-blue-100 dark:ring-blue-900/30"></div>
+                                </div>
+                                <h4 className="text-xl font-bold text-slate-900 dark:text-white">Intermediate (MPC)</h4>
+                                <p className="text-lg text-blue-600 dark:text-blue-400 font-medium my-2">Sasi Educational Institues</p>
+                                <span className="inline-block px-3 py-1 bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-300 text-sm font-semibold rounded-full">
+                                    Jun 2020 – Mar 2022
+                                </span>
+                                <p className="text-slate-900 dark:text-white font-semibold mt-2">Percentage: 95.6%</p>
+                                <p className="text-slate-600 dark:text-slate-400">
+                                    Velivennu, Andhra Pradesh
+                                </p>
+                            </div>
+
+                            <div className="relative">
+                                <div className="absolute -left-[41px] bg-white dark:bg-slate-950 p-1 rounded-full">
+                                    <div className="w-4 h-4 bg-blue-600 rounded-full ring-4 ring-blue-100 dark:ring-blue-900/30"></div>
+                                </div>
+                                <h4 className="text-xl font-bold text-slate-900 dark:text-white">Matriculation</h4>
+                                <p className="text-lg text-blue-600 dark:text-blue-400 font-medium my-2">Triumala EM High School</p>
+                                <span className="inline-block px-3 py-1 bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-300 text-sm font-semibold rounded-full">
+                                    Jul 2019 - Mar 2020
+                                </span>
+                                <p className="text-slate-900 dark:text-white font-semibold mt-2">Percentage: 90.6%</p>
+                                <p className="text-slate-600 dark:text-slate-400">
+                                    Bhimavaram, Andhra Pradesh
+                                </p>
+                            </div>
                         </div>
                     </motion.div>
 
